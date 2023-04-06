@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/WellnestBLE-Swift.h</key>
 		<data>
-		gWFNql/Fwke0uNs0+hLfoW8wPgY=
+		9COLDk/uxpz82vt/piH9ZVC83dI=
 		</data>
 		<key>Headers/WellnestBLE.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yTrmKPMNHipMA7AdxD23DFqPniI=
+		pQABSgzNwobKVlMdEz2CiM2cpBk=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		KEwlQ3mwwHtWPD/6Hivq/Y6Thh0=
+		uofll4nZjtEDij7lWw2QSy1jDAc=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		sycyvw8VIUFLCHYFbefVWuCgBRA=
+		fx8kLu2NeQ3+zSPWOwtiQ/UA1iE=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		VJu7N8i/p+1OqwE2fIAOmp35zlI=
+		lhkzYoT7Be46/9S0EJx8DbLgQB0=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		sycyvw8VIUFLCHYFbefVWuCgBRA=
+		fx8kLu2NeQ3+zSPWOwtiQ/UA1iE=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WpZ8pPnJEpnkQa2HkJRy1ZY5+hQ=
+		gzHKfnvUPXAjmBbc//HWHCuRIgk=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		KEwlQ3mwwHtWPD/6Hivq/Y6Thh0=
+		uofll4nZjtEDij7lWw2QSy1jDAc=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ME66Nb5djrqC8JrD/N+pEIdNQhU=
+		WCd0pCFMkaVhiyCItgMvlBnROWI=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		N1WOa3bjdu3bEoBSaCORFL3eId4=
+		ag0J3hOAR2Wt/MYZHGov2n/pa1Y=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ME66Nb5djrqC8JrD/N+pEIdNQhU=
+		WCd0pCFMkaVhiyCItgMvlBnROWI=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yFRWiF3tK7YX3j+E/r/li4Hw9Jw=
+		hu1R5ZoVWh/GDFnXXBQFAjXr8DQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4AoguEXqPSO/1Z0TiyrkgcVQ8HwTw1XIxFx4bbyKE34=
+			yt0GAph04qsrC4xcenSJptM/7k4A/tLONxLnJs65tnA=
 			</data>
 		</dict>
 		<key>Headers/WellnestBLE.h</key>
@@ -85,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xg8RZDODbSptJzmxlLCovPlD+V/H6oeNhnvcM9Q+2aM=
+			5ThQ6zZnkBVxy8iGWR9WgiWUmiFNeBsdXjnX0EtE7JQ=
 			</data>
 		</dict>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8zqGEOP1ccpzeRZgRuSO6ZPCsF0oWkKhWUMYOrEY5U4=
+			YFBYkkQ3JNZWy9E/dwnJcv1Q2k3XGMUSExveqrePu+s=
 			</data>
 		</dict>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HmPYfRxyr6GOV3XZD/DtjAH9k+Xall41wi+w+S7BuYE=
+			QjUmEyLEOV7yji/VrUwB99U3EslzlO3cSjmOTX+EM3A=
 			</data>
 		</dict>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8zqGEOP1ccpzeRZgRuSO6ZPCsF0oWkKhWUMYOrEY5U4=
+			YFBYkkQ3JNZWy9E/dwnJcv1Q2k3XGMUSExveqrePu+s=
 			</data>
 		</dict>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nxXCLo6FSK9xe4F8XYBe86tLvpuzY+I9oXJInXe09kY=
+			53Es4HJ6Gz/MIz7RdgsDAN/BzimKQpVPaAId3WAHorY=
 			</data>
 		</dict>
 		<key>Modules/WellnestBLE.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xg8RZDODbSptJzmxlLCovPlD+V/H6oeNhnvcM9Q+2aM=
+			5ThQ6zZnkBVxy8iGWR9WgiWUmiFNeBsdXjnX0EtE7JQ=
 			</data>
 		</dict>
 		<key>Modules/WellnestBLE.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7GEfjFDm29JlSREtLPY9ocfF2avuRXvDV2KoKj/oWKA=
+			OxGGN0lu0DJkQzU+/RYnHYGzo8D2spb8e/DnAoMx1Cw=
 			</data>
 		</dict>
 		<key>Modules/WellnestBLE.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f5H4+rbfsypCfvWWhFg3O4FZ4D2r1AHJviTG9EcE5Ic=
+			JE9Gw886jEr/SM0pDaUyg1SCRqCL3XZPVHSROIRyn6g=
 			</data>
 		</dict>
 		<key>Modules/WellnestBLE.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7GEfjFDm29JlSREtLPY9ocfF2avuRXvDV2KoKj/oWKA=
+			OxGGN0lu0DJkQzU+/RYnHYGzo8D2spb8e/DnAoMx1Cw=
 			</data>
 		</dict>
 		<key>Modules/WellnestBLE.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A4qT3X01GVMXHgTElkuJ3miUU3O13D2msyors3yYJkE=
+			ArHkQA4QqnPEnAx2zAmKLIaBoteiHzTBOhwh/0TynW0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
