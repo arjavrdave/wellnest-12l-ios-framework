@@ -52,8 +52,8 @@ internal class MockBluetoothSerial: BluetoothSerial {
         connectedPeripheral = peripheral
         
         // notify the delegate we're ready for communication
-        self.delegate.serialIsReady()
         self.delegate.serialDidConnect(connectedPeripheral!)
+        self.delegate.serialIsReady()
     }
     
     /// Send a string to the device
@@ -87,8 +87,9 @@ internal class MockBluetoothSerial: BluetoothSerial {
         }
         else if (message.starts(with: "+OTAUPG")) {
            self.delegate.serialDidDisconnect(connectedPeripheral!, error: nil)
-            DispatchQueue.main.asyncAfter(deadline: .now() + 120, execute: {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 15, execute: {
                 var randomNumber = Int.random(in: 0...1)
+                print("RANDOM NUMBER \(randomNumber)")
                 if randomNumber == 0{
                     self.latestFramework = "2.94"
                     self.delegate.serialDidDiscoverPeripheral(self.connectedPeripheral!, RSSI: nil)

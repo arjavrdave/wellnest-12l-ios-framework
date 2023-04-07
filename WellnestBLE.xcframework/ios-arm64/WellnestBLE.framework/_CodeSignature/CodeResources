@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		uofll4nZjtEDij7lWw2QSy1jDAc=
+		wHlz7Rb7Fx1oErODHReS4oyxVMM=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		AVEEXFQUSMFIr+B01fFOenH+Wu0=
+		fHmrCabLN2EEbLRKYPkAVsNW36U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,7 +65,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ThQ6zZnkBVxy8iGWR9WgiWUmiFNeBsdXjnX0EtE7JQ=
+			OI88tnBnNTlw2/Ej6V8HABw7Ng7AmIcA4XaGXFVhm+4=
 			</data>
 		</dict>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zi/CD8e8l8A0aL7thUyCxKcanmqr3j+GJrXypiFW0bw=
+			lu2mPpgKQ/MtFR7RcX6kW7lII0HdvEzGNtP5YpR48ag=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
