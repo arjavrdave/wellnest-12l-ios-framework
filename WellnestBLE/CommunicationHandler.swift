@@ -312,7 +312,7 @@ internal class CommunicationHandler : BluetoothSerialDelegate, CommunicationProt
     }
     func upgradeDevice(wifiSSID:String, wifiPassword: String) {
         self.bluetoothSerial.sendMessageToDevice("+WFSSID=\(wifiSSID)\r\n", true)
-        self.bluetoothSerial.sendMessageToDevice("+WFPSWD=\(wifiSSID)\r\n", true)
+        self.bluetoothSerial.sendMessageToDevice("+WFPSWD=\(wifiPassword)\r\n", true)
         self.bluetoothSerial.sendMessageToDevice("+OTAUPG", true)
     }
     func checkFirwareVersion() {
