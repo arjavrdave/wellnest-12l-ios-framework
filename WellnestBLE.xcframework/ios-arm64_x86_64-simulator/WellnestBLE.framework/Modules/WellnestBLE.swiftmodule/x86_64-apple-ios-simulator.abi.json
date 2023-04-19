@@ -523,6 +523,33 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didGetUDID",
+            "printedName": "didGetUDID(udid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WellnestBLE22FirmwareStatusDelegateP10didGetUDID4udidySS_tF",
+            "mangledName": "$s11WellnestBLE22FirmwareStatusDelegateP10didGetUDID4udidySS_tF",
+            "moduleName": "WellnestBLE",
+            "genericSig": "<τ_0_0 where τ_0_0 : WellnestBLE.FirmwareStatusDelegate>",
+            "sugared_genericSig": "<Self where Self : WellnestBLE.FirmwareStatusDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -1025,6 +1052,27 @@
             "declKind": "Func",
             "usr": "s:11WellnestBLE21CommunicationProtocolP11isConnectedSbyF",
             "mangledName": "$s11WellnestBLE21CommunicationProtocolP11isConnectedSbyF",
+            "moduleName": "WellnestBLE",
+            "genericSig": "<τ_0_0 where τ_0_0 : WellnestBLE.CommunicationProtocol>",
+            "sugared_genericSig": "<Self where Self : WellnestBLE.CommunicationProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WellnestBLE21CommunicationProtocolP10disconnectyyF",
+            "mangledName": "$s11WellnestBLE21CommunicationProtocolP10disconnectyyF",
             "moduleName": "WellnestBLE",
             "genericSig": "<τ_0_0 where τ_0_0 : WellnestBLE.CommunicationProtocol>",
             "sugared_genericSig": "<Self where Self : WellnestBLE.CommunicationProtocol>",

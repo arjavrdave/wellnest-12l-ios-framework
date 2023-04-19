@@ -148,6 +148,7 @@ internal class CommunicationHandler : BluetoothSerialDelegate, CommunicationProt
             UserDefaults.standard.set(deviceId, forKey: "ECGDeviceId")
             
             self.uuid = UUID().uuidString.replacingOccurrences(of: "-", with: "")
+            self.firmwareStatusDelegate?.didGetUDID(udid: deviceId)
             self.bluetoothSerial.sendMessageToDevice("+GETAUT=\(uuid!)", true)
         } else if (message.starts(with:"+GETAUT")) {
             let response : String = String(message.split(separator: "=")[1])
@@ -267,6 +268,12 @@ internal class CommunicationHandler : BluetoothSerialDelegate, CommunicationProt
     
     func connect(peripheral: WellnestPeripheral) {
         self.bluetoothSerial.connectToPeripheral(peripheral)
+    }
+    func disconnect() {
+        if let connectedPeripheral = self.connectedPeripheral {
+            self.serialDidDisconnect(connectedPeripheral, error: nil)
+            self.bluetoothSerial.disconnect()
+        }
     }
     
     func autoconnect() {

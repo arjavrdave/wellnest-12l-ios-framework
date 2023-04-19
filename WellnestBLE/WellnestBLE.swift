@@ -24,6 +24,7 @@ public protocol StatusDelegate {
 }
 public protocol FirmwareStatusDelegate {
     func didGetFirmwareVersion(versionNo: String)
+    func didGetUDID(udid: String)
 }
 public protocol RecordingDelegate {
     /**
@@ -79,6 +80,7 @@ public protocol CommunicationProtocol {
     func upgradeDevice(wifiSSID:String, wifiPassword: String)
     func checkFirwareVersion()
     func isConnected() -> Bool
+    func disconnect()
     
     func stopRecording(wantData: Bool)
     /**
@@ -97,6 +99,7 @@ public protocol CommunicationProtocol {
     var statusDelegate: StatusDelegate? { get set }
     
     var firmwareStatusDelegate: FirmwareStatusDelegate? { get set }
+    
 }
 
 open class CommunicationFactory: NSObject {

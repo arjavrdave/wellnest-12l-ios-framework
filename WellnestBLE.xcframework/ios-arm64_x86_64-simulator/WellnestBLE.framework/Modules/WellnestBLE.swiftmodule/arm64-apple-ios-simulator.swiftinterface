@@ -23,6 +23,7 @@ public protocol StatusDelegate {
 }
 public protocol FirmwareStatusDelegate {
   func didGetFirmwareVersion(versionNo: Swift.String)
+  func didGetUDID(udid: Swift.String)
 }
 public protocol RecordingDelegate {
   func recordingCompleted(rawData: Foundation.Data, parsedData: [[Swift.Double]])
@@ -44,6 +45,7 @@ public protocol CommunicationProtocol {
   func upgradeDevice(wifiSSID: Swift.String, wifiPassword: Swift.String)
   func checkFirwareVersion()
   func isConnected() -> Swift.Bool
+  func disconnect()
   func stopRecording(wantData: Swift.Bool)
   var peripheralDelegate: WellnestBLE.PeripheralDelegate? { get set }
   var recordingDelegate: WellnestBLE.RecordingDelegate? { get set }
