@@ -62,7 +62,7 @@ open class DataParser: NSObject {
         let val: Double = b[0] * x![index][n] + b[1] * x![index][(n-1+m)%m] + b[2] * x![index][(n-2+m)%m] + b[3] * x![index][(n-3+m)%m] - a[1] * y![index][(n-1+m)%m] - a[2] * y![index][(n-2+m)%m] - a[3] * y![index][(n-3+m)%m];
         y![index][n] = val;
 
-        return value;
+        return val;
 
     }
     
@@ -102,10 +102,7 @@ open class DataParser: NSObject {
                 
                 finalData.append(self.caluclateXY(index: 8, value: dataFromMSB(reading[15], reading[10]), n: n)); //L9
                 
-                
-                
                 chartsData.append(finalData)
-                print("HELLO \(n)")
                 self.n = (n + 1) % 10;
             }
             self.i = self.i + 1

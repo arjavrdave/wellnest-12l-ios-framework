@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WellnestBLE
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
@@ -47,14 +47,14 @@ public protocol CommunicationProtocol {
   func isConnected() -> Swift.Bool
   func disconnect()
   func stopRecording(wantData: Swift.Bool)
-  var peripheralDelegate: WellnestBLE.PeripheralDelegate? { get set }
-  var recordingDelegate: WellnestBLE.RecordingDelegate? { get set }
-  var statusDelegate: WellnestBLE.StatusDelegate? { get set }
-  var firmwareStatusDelegate: WellnestBLE.FirmwareStatusDelegate? { get set }
+  var peripheralDelegate: (any WellnestBLE.PeripheralDelegate)? { get set }
+  var recordingDelegate: (any WellnestBLE.RecordingDelegate)? { get set }
+  var statusDelegate: (any WellnestBLE.StatusDelegate)? { get set }
+  var firmwareStatusDelegate: (any WellnestBLE.FirmwareStatusDelegate)? { get set }
 }
 @objc @_inheritsConvenienceInitializers open class CommunicationFactory : ObjectiveC.NSObject {
-  public static func getCommunicationHandler() -> WellnestBLE.CommunicationProtocol
-  public static func getMockCommunicationHandler() -> WellnestBLE.CommunicationProtocol
+  public static func getCommunicationHandler() -> any WellnestBLE.CommunicationProtocol
+  public static func getMockCommunicationHandler() -> any WellnestBLE.CommunicationProtocol
   @objc override dynamic public init()
   @objc deinit
 }
@@ -68,7 +68,7 @@ public protocol CommunicationProtocol {
   public var name: Swift.String?
   public var id: Swift.Int?
   @objc required override dynamic public init()
-  required public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }

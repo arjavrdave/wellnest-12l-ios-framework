@@ -44,7 +44,8 @@ internal class CommunicationHandler : BluetoothSerialDelegate, CommunicationProt
     var subscriptions: [AnyCancellable] = []
     var tempECGCount = Data(capacity: 80000)
     var isProcessing = false
-    
+    var subArray = Array(repeating: [Double](), count: 12)
+
     private init(isMock: Bool) {
         if isMock {
             print("INITIATED AS MOCK")
@@ -386,13 +387,39 @@ internal class CommunicationHandler : BluetoothSerialDelegate, CommunicationProt
         }
         let chartsData = DataParser().setUpDataForRecording(finalArr);
         var sublist = [[Double]]()
-        for j in 0..<12{
+        var finalSubList = Array(repeating: [Double](), count: 12)
+        var buffer = Array(repeating: [Double](), count: 12)
+        var d1 = [Double]()
+        for index in 0..<12{
             sublist.append([Double]())
             for i in 0..<chartsData.count{
-                sublist[j].append(chartsData[i][j])
+                sublist[index].append(chartsData[i][index])
+            }
+            self.subArray[index].append(contentsOf: sublist[index])
+            if subArray[index].count >= 100 {
+                d1.removeAll()
+                for j in 0..<subArray[index].count - 1{
+                    let temp = subArray[index][j+1] - subArray[index][j]
+                    d1.append(temp)
+                }
+                let sggFilter = sgg(ys: subArray[index], xs: d1)
+                for i in 0..<sggFilter.count{
+                    finalSubList[index].append(sggFilter[i])
+                }
+                buffer[index].append(contentsOf: subArray[index])
+                subArray[index].removeAll()
+            }
+            else{
+                continue
             }
         }
-        return sublist;
+        if buffer[0].count >= 100  {
+          //  print("final")
+            return finalSubList;
+        }else{
+          //  print("sublist")
+            return sublist;
+        }
     }
 
     func serialDidChangeState() {

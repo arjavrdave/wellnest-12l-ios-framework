@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/WellnestBLE-Swift.h</key>
 		<data>
-		evwLHtHL8qEHlRSfBgdzH7JI8ZA=
+		hcFKh9vc4s+JYRWZI9TZkAOCtrg=
 		</data>
 		<key>Headers/WellnestBLE.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NtDzufwZ/oeJJL/T8s7Q+67KG4s=
+		ux8+TO+KjnKqxzQYO6Dru8VBqdM=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		BraA/EeIu16ej+ZNsFaEQQV973g=
+		8X94EltBPvFclAxd+Un1eYsb8Ug=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		mBMx/63EHaUp3EOrPZoTSRs+RTA=
+		jAvwP1YYHVbUBtOd+Sl0wpK22eY=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		tLrmnmq05DwkWtpkA81ENL3ElFc=
+		e0IAL3SzNgIJmo2zJmM4SA3BMZU=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		mBMx/63EHaUp3EOrPZoTSRs+RTA=
+		jAvwP1YYHVbUBtOd+Sl0wpK22eY=
 		</data>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		k0S0Gqx0KQ67Dtfnfn6BOd1fhlg=
+		lLh666WQTeFLHCvP/T+ScoMqpLk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1ofY+i5MaPh7b+abf914XoVYHcpkK2K3fh/KDRavytg=
+			2do+vf4ovvTxVQGKQ5vuRkl0cVNX9+WKMQClkLMSRoY=
 			</data>
 		</dict>
 		<key>Headers/WellnestBLE.h</key>
@@ -65,35 +65,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+a7Ia5ieNrkBvr2dCSXFi4FmGRQ7daROko0grOxSKug=
+			sW7Y3loN0dJ07rToZ7SB8X0zYL3DPh5CXqINmv2P0To=
 			</data>
 		</dict>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X6lAoqWJhbiWDl3j3klrw626QD+K+NvO7zQKvIAjLK4=
+			sD28szQIj/KcL9GyIaSGHeEUS/Cz6dltHPq5eUHQ/Jk=
 			</data>
 		</dict>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yAtvUOTswSOmN0Nen+cRmGM9A5laWmiLclBm5nKNLro=
+			EhN5a216fGWh8vcawHKxZsyTCypLfwYZAqjTCoQf+ik=
 			</data>
 		</dict>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X6lAoqWJhbiWDl3j3klrw626QD+K+NvO7zQKvIAjLK4=
+			sD28szQIj/KcL9GyIaSGHeEUS/Cz6dltHPq5eUHQ/Jk=
 			</data>
 		</dict>
 		<key>Modules/WellnestBLE.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uLry44k1W7ber51Otm1BVpSeYvANMVr0rtCXDArsCtQ=
+			mzKhhcQA2rqUDH5phr87HVLOa8J+brhS4GdYI5s0nfM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

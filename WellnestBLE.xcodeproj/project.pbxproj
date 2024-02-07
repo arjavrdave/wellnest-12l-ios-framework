@@ -17,6 +17,7 @@
 		570324A02683324E00E5A05A /* WellnestPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5703249A2683324E00E5A05A /* WellnestPeripheral.swift */; };
 		570324A42683329E00E5A05A /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 570324A32683329E00E5A05A /* CryptoSwift */; };
 		570324B526833C6E00E5A05A /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 570324B426833C6E00E5A05A /* readme.md */; };
+		A6BF78D72B6A65C400FC53BE /* SavGolFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BF78D62B6A65C400FC53BE /* SavGolFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		570324992683324E00E5A05A /* MockBLEConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockBLEConnection.swift; sourceTree = "<group>"; };
 		5703249A2683324E00E5A05A /* WellnestPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WellnestPeripheral.swift; sourceTree = "<group>"; };
 		570324B426833C6E00E5A05A /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		A6BF78D62B6A65C400FC53BE /* SavGolFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavGolFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				570324952683324E00E5A05A /* CommunicationHandler.swift */,
 				570324982683324E00E5A05A /* WellnestBLE.swift */,
 				570324962683324E00E5A05A /* DataParser.swift */,
+				A6BF78D62B6A65C400FC53BE /* SavGolFilter.swift */,
 				570324992683324E00E5A05A /* MockBLEConnection.swift */,
 				5703249A2683324E00E5A05A /* WellnestPeripheral.swift */,
 				570324B426833C6E00E5A05A /* readme.md */,
@@ -171,6 +174,7 @@
 				43C1DEE127EB5AFD007939B7 /* Constants.swift in Sources */,
 				5703249B2683324E00E5A05A /* CommunicationHandler.swift in Sources */,
 				5703249F2683324E00E5A05A /* MockBLEConnection.swift in Sources */,
+				A6BF78D72B6A65C400FC53BE /* SavGolFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,10 +308,9 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = PLFW27U9D2;
+				DEVELOPMENT_TEAM = BU22N77UP4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -322,7 +325,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rc.WellnestBLE;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -335,10 +337,9 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = PLFW27U9D2;
+				DEVELOPMENT_TEAM = BU22N77UP4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -353,7 +354,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rc.WellnestBLE;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
